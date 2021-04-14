@@ -1,0 +1,40 @@
+body{
+    text-align: center;
+    background:linear-gradient( #124a1c 0%,#52d1a4 100%);
+
+    
+}
+h1{
+    text-shadow: 2px 2px #736f6e;
+    font-size: 30px;
+
+}
+.bio{
+    padding: 20px;
+    font-size: 18px;
+    text-align: center;
+}
+h2{
+    font-family: 'Karantina', cursive;
+}
+#myimg{
+    width:20%;
+    height:auto;
+    border-radius: 40%;
+    
+}
+.menu{
+    list-style: none;
+    font-family: cursive;
+    float: right;
+    right:30px;
+    top:10px;
+    cursor:pointer;
+    color:floralwhite;
+}
+#myname{
+    font-family: "courgette", cursive;
+}
+#welcome{
+    text-align: centre;
+}
