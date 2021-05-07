@@ -1,40 +1,108 @@
-body{
+body {
     text-align: center;
-    background:linear-gradient( #124a1c 0%,#52d1a4 100%);
+  
 
-    
+
 }
-h1{
+
+h1 {
     text-shadow: 2px 2px #736f6e;
     font-size: 30px;
+    padding-top: 40px;
 
 }
-.bio{
+h3{
+    font-family: monospace;
+}
+
+.bio {
     padding: 20px;
     font-size: 18px;
     text-align: center;
+    background: linear-gradient( #46fabc 0%, #0bf5da 100%);
+
+
 }
-h2{
+
+h2 {
     font-family: 'Karantina', cursive;
 }
-#myimg{
-    width:20%;
-    height:auto;
-    border-radius: 40%;
+
+#myimg {
+    width: 100px;
+    border-radius: 50%;
+
+}
+
+.menu {
     
-}
-.menu{
-    list-style: none;
+    list-style:none;
     font-family: cursive;
-    float: right;
-    right:30px;
-    top:10px;
-    cursor:pointer;
-    color:floralwhite;
+    right: 150px;
+    top: 10px;
+    cursor: pointer;
+    color:darkblue;
+    position:absolute;
+    z-index:10;
 }
-#myname{
+
+#myname {
     font-family: "courgette", cursive;
+    line-height: 1.2;
+    font-size: 30px;
 }
-#welcome{
+
+#welcome {
     text-align: centre;
+    font-family: 'Dancing Script', cursive;
+    background: linear-gradient(#64d9ef 0%,  #46fabc 100%);
+    font-size: 18px;
+    padding-bottom: 25px;
+    z-index:9;
+
+}
+p{
+    max-width: 750px;
+    margin:25px auto;
+    font-size: 17px;
+    line-height: 1.3;
+}
+
+.line{
+    width=50px;
+    background-color: black;
+    height: 6px;
+    margin: 8px auto;
+}
+.link{
+    display: inline;
+    padding-top:10px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-family: fantasy;
+    font-size: 20px;
+
+}
+
+.links hover {
+    background-color: crimson;
+    text text-decoration: underline;
+    font-size: 25px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+}
+.article:hover{
+    color:fuchsia;
+}
+#All-about-planets{
+    background:linear-gradient(#79b0b2 0% ,#d7e8b7 100%);
+}
+#My-inspiration{
+    background:linear-gradient(#ebdaf5 0% ,#efbbf0 100%);
 }
